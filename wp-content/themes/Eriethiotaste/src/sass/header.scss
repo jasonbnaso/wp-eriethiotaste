@@ -1,0 +1,35 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 18px;
+  z-index: 200;
+  opacity: 1 !important;
+  padding-right: 10px !important;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgb(0 0 0 / 57%);
+}
+.custom-logo {
+  max-width: 80px;
+}
+.logo-text {
+  font-family: $font-family-hero-title;
+  position: static;
+  z-index: -1;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgb(0 0 0 / 57%);
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    max-width: 50%;
+  }
+}
+.header-hero-title {
+  font-family: $font-family-hero-title;
+  opacity: 0;
+  margin-left: 10px;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+}

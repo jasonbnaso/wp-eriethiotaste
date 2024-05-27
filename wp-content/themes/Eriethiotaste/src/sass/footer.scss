@@ -1,0 +1,14 @@
+.wrapper {
+  background-color: $base-color-light;
+
+  .fa {
+    color: $base-color-blue;
+  }
+  .skapad {
+    opacity: 0.2;
+    text-shadow: 1px 1px white, -1px -1px #444;
+    a {
+      color: $base-color-blue;
+    }
+  }
+}

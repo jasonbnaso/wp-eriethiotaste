@@ -1,0 +1,94 @@
+.menu {
+  .flag {
+    height: auto;
+    background: linear-gradient(
+      140deg,
+      $base-color-green 33%,
+      $base-color-red 33%,
+      $base-color-red 66%,
+      $base-color-blue 66%,
+      $base-color-blue 100%
+    );
+    h1 {
+      font-family: $font-family-menu-title;
+      font-size: 70px;
+      text-shadow: -2px -3px 0px #ce5937;
+      line-height: 70px;
+    }
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 150px;
+        line-height: 90px;
+      }
+    }
+    h2 {
+      font-family: $font-family-menu-title;
+      font-size: 36px;
+      text-shadow: -2px -3px 0px #ce5937;
+    }
+    @media (min-width: 768px) {
+      h2 {
+        font-size: 75px;
+      }
+    }
+    h3 {
+      font-family: $font-family-menu-price;
+      font-size: 150px;
+      text-shadow: -2px -3px 0px #ce5937;
+    }
+  
+    @media (max-width: 992px) {
+      .item-description {
+        text-align: center;
+      }
+    }
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $base-color-yellow;
+  }
+  p {
+    font-size: 18px !important;
+    line-height: 22px;
+  }
+  .custom-font {
+    p {
+      font-size: 11px !important;
+    }
+  }
+}
+.circle-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.image-border {
+  background: $base-color-yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.image-center {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .image-border {
+    margin-bottom: 0;
+  }
+  .image-center {
+    display: block;
+    width: auto !important;
+  }
+}
+
+// https://stackoverflow.com/questions/45097591/generate-solid-colors-using-css-linear-gradient-not-smooth-colors

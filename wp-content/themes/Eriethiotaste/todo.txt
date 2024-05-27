@@ -1,0 +1,12 @@
+Form validation
+Menu prices for bloom roots chicken
+
+Fix sideways scroll
+Form SMTP
+jQuery error on phone size
+
+Hero text on phone
+
+Text paralax phone view
+
+Wrap all in if state,emnts
